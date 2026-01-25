@@ -1,0 +1,66 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "kongkong:kongkong_glass_slab",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.glass"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.kongkong_slab_bottom",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "glass",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "glass",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "kongkong_glass_slab",
+                    "render_method": "opaque"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:geometry": "geometry.kongkong_slab_top",
+                    "minecraft:collision_box": {
+                        "origin": [ -8, 8, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [ -8, 8, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom'",
+                "components": {
+                    "minecraft:geometry": "geometry.kongkong_slab_bottom",
+                    "minecraft:collision_box": {
+                        "origin": [ -8, 0, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [ -8, 0, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    }
+                }
+            }
+        ]
+    }
+}

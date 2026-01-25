@@ -1,0 +1,14 @@
+{
+    "texture_name": "atlas.terrain",
+    "resource_pack_name": "Kongkong",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "kongkong_block": {
+            "textures": "textures/blocks/kongkong_block"
+        },
+        "kongkong_glass_slab_side": {
+            "textures": "textures/blocks/kongkong_glass_slab_side"
+        }
+    }
+}

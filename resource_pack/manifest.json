@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Additional Blocks",
+        "description": "追加のブロックたちだよ",
+        "uuid": "fde0e0fd-822c-4995-826f-1ba03706c429",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "description": " ",
+            "type": "resources",
+            "uuid": "9bb12eb6-62e3-49ae-ac81-9acffb719184",
+            "version": [1, 0, 0]
+        }
+    ]
+}

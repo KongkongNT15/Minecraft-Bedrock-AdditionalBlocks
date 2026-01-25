@@ -1,0 +1,14 @@
+{
+    "kongkong_block": {
+        "sound" : "amethyst_block",
+        "textures": "kongkong_block"
+    },
+    "kongkong_glass_slab": {
+        "sound": "glass",
+        "textures": {
+            "down": "glass",
+            "side": "kongkong_glass_slab_side",
+            "up":   "glass"
+        }
+    }
+}
