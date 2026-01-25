@@ -10,12 +10,6 @@
         },
         "components": {
             "minecraft:geometry": "minecraft:geometry.full_block",
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "kongkong_block",
-                    "render_method": "opaque"
-                }
-            },
             "minecraft:light_emission": 15
         }
     }

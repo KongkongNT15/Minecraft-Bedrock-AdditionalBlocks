@@ -16,21 +16,21 @@
             }
         },
         "components": {
-            "minecraft:geometry": "geometry.kongkong_slab_bottom",
             "minecraft:material_instances": {
                 "up": {
                     "texture": "glass",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "down": {
                     "texture": "glass",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "*": {
-                    "texture": "kongkong_glass_slab",
-                    "render_method": "opaque"
+                    "texture": "kongkong_glass_slab_side",
+                    "render_method": "blend"
                 }
-            }
+            },
+            "minecraft:light_emission": 15
         },
         "permutations": [
             {

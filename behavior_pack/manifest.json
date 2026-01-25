@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Test",
-        "description": "ScriptAPI Test Behavior Pack",
+        "name": "Additional Blocks",
+        "description": "追加のブロックたち",
         "uuid": "2eaa4cbc-4917-42e5-b823-37f4f9ffde21",
         "version": [1, 0, 0],
         "min_engine_version": [1, 21, 0]
