@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:block": {
         "description": {
-            "identifier": "kongkong:kongkong_glass_slab",
+            "identifier": "kongkong:glass_slab",
             "menu_category": {
                 "category": "construction",
                 "group": "itemGroup.name.glass"
@@ -36,7 +36,7 @@
             {
                 "condition": "q.block_state('minecraft:vertical_half') == 'top'",
                 "components": {
-                    "minecraft:geometry": "geometry.kongkong_slab_top",
+                    "minecraft:geometry": "geometry.kongkong.slab_top",
                     "minecraft:collision_box": {
                         "origin": [ -8, 8, -8 ],
                         "size": [ 16, 8, 16 ]
@@ -50,7 +50,7 @@
             {
                 "condition": "q.block_state('minecraft:vertical_half') == 'bottom'",
                 "components": {
-                    "minecraft:geometry": "geometry.kongkong_slab_bottom",
+                    "minecraft:geometry": "geometry.kongkong.slab_bottom",
                     "minecraft:collision_box": {
                         "origin": [ -8, 0, -8 ],
                         "size": [ 16, 8, 16 ]

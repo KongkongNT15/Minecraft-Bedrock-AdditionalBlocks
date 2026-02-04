@@ -1,10 +1,11 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.20.10",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "kongkong:glass_slab"
         },
         "tags": [ "crafting_table" ],
+        "group": "kongkong:glass_slab",
         "pattern": [
             "###"
         ],
@@ -13,9 +14,11 @@
                 "item": "minecraft:glass"
             }
         },
-        "unlock": {
-            "item": "minecraft:glass"
-        },
+        "unlock": [
+            {
+                "item": "minecraft:glass"
+            }
+        ],
         "result": {
             "item": "kongkong:glass_slab",
             "count": 6
